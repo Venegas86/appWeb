@@ -11,6 +11,18 @@ body{
     font-family: sans-serif;
 }
 
+/*
+logo de casa{
+background-image: url/(/rutalogo)
+width:20px
+height:20px
+background-size: 100% 100%
+display:block
+}    
+
+
+*/
+
 .head{
     display: flex;
     align-items: center;
