@@ -13,19 +13,12 @@ body{
 }
 
 
-
-
-
-
 .container-title{
     padding: 30px;
     background-color: aliceblue;
     margin-bottom: 50px;
     color: #171717;
 }
-
-
-
 
 
 main{
@@ -42,11 +35,6 @@ main{
 .container-info-product{
     flex: 1;
 }
-
-
-
-
-
 
 
 .head{
