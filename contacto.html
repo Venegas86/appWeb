@@ -7,51 +7,54 @@
         <link rel="stylesheet" href="/appWeb/css/contacto.css">
         <link rel="icon" type="image/jpg" href="/appWeb/img/LOGO PAGINA WEB.PNG">
     </head>
- 
     <body>
-        <header class="aaa">
+   
+        <header>
             <div class="head">
-                <div class="logo">
-                    <img src="/appWeb/img/LOGO PAGINA WEB.PNG">
-                    <a href="#">HabitGames</a>
-                </div>
-    
-                <nav class="navbar">
-                    <a href="/appWeb/index.html">Inicio</a>
-                    <a href="/appWeb/catalogo.html">Catalogo</a>
-                    <a href="/appWeb/contacto.html">Contacto</a>
-                </nav>
-    
+                    <div class="logo">
+                        <img src="/appWeb/img/LOGO PAGINA WEB.PNG">
+                        <a href="#">HabitGames</a>
+                    </div>
+        
+                    <nav class="navbar">
+                        <a href="/appWeb/index.html">Inicio</a>
+                        <a href="/appWeb/catalogo.html">Catalogo</a>
+                        <a href="/appWeb/contacto.html">Contacto</a>
+                        <a href="/appWeb/login.html">Cerrar Sesión</a>
+                    </nav>
+        
             </div>
 
         </header>
 
         <br><br><br><br>
-        
+               
+        <div class="aaa">
+            <form action="mensaje.html">
+                <h2 class="container-tittle">Contacto</h2>
 
+                <div class="input-group">
 
-        <form action="mensaje.html">
-            <h2 class="container-tittle">Contacto</h2>
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" id="name" placeholder="Nombre">
 
-            <div class="input-group">
+                    <label for="phone">Telefono</label>
+                    <input type="telefono" name="phone" id="phone" placeholder="Telefono">
 
-                <label for="name">Nombre</label>
-                <input type="text" name="name" id="name" placeholder="Nombre">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
 
-                <label for="phone">Telefono</label>
-                <input type="telefono" name="phone" id="phone" placeholder="Telefono">
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
 
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Email">
+                    
+                    <input class="btn" type="submit" value="Enviar">
+                    <input type="button" onclick="alert('Si tiene algún problema con algo en concreto, no dudes en llamar al número: 650535742. Gracias.')" value="Ayuda">
+                    
+                </div>
+            </form>
 
-                <label for="message">Mensaje</label>
-                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
-
-                
-                <input class="btn" type="submit" value="Enviar">
-                <input type="button" onclick="alert('Si tiene algún problema con algo en concreto, no dudes en llamar al número: 650535742. Gracias.')" value="Ayuda">
-                
-            </div>
-        </form>
+        </div>
+            
     </body>
 </html>

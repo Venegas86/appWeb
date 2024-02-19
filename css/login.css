@@ -9,7 +9,7 @@
 
 
 
-.aaa{
+body{
     text-align: center;
     font-family: sans-serif;
     min-height: 100vh;
@@ -31,43 +31,6 @@
     z-index: 100%;
 }
 
-
-.navbar{
-    display: flex;
-    margin-right: 10px;
-
-}
-
-.logo{
-    margin-left: 30px;
-    display: flex;
-}
-
-.logo img{
-    width: 40px;
-    height: 40px;  
-}
-
-.logo a{
-    text-decoration: none;
-    color: beige;
-    text-transform: uppercase;
-    font-size: 20px; 
-    display: block;
-    padding: 10px 20px;
-    
-}
-
-
-.navbar a {
-    display: block;
-    padding: 20px 20px;
-    color: rgb(233, 231, 231);
-}
-
-.navbar a:hover{
-    background-color: #494444;
-}
 
 
 form{
