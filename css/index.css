@@ -1,9 +1,5 @@
 *{
     margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
 }
 
 body{
@@ -28,8 +24,8 @@ body{
 }
 
 .logo{
-    margin-left: 30px;
     display: flex;
+    margin-left: 30px;
 }
 
 .logo img{
@@ -40,11 +36,10 @@ body{
 .logo a{
     text-decoration: none;
     color: beige;
-    text-transform: uppercase;
+    text-transform: uppercase;  /*Transforma en mayuscula*/
     font-size: 20px; 
     display: block;
-    padding: 10px 20px;
-    
+    padding: 10px 20px;  
 }
 
 .navbar a {
@@ -57,41 +52,32 @@ body{
     background-color: #494444;
 }
 
-
-
-
 .header {
     display: flex;
-    justify-content: center;
     align-items: center;
-
 }
 
 .header{
     height: 60vh !important;
     background: url(/appWeb/img/1.png) no-repeat center;  
-    background-attachment: fixed;
-    background-size:cover ;
-    
-
+    background-attachment: fixed;   /*Para mover la foto scroll*/
+    background-size:cover;      /*cover: ocupa todo el ancho la imagen*/
 }   
+
 .tittle{
     margin-bottom: 40px;
     font-size: 60px;
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 600; /*grosor*/
+    text-transform: uppercase;  /*mayusculas*/
 }
 
 p {
-    margin-bottom: 40px;
+    margin-bottom: 40px;    /*espacio parte inferior*/
     font-size: 16px;
     margin: 25 px 0 45px 0;
-   
 }
 
 .btn {
-    display: inline-block;
-    margin-top: 15px;
     padding: 10px 40px;
     border: 2px solid #464444;
     color: aliceblue;
@@ -110,7 +96,6 @@ p {
 .btn-home a {
     margin: 0 10px;
 }
-
 
 .content{
     height: 50vh;
@@ -140,8 +125,3 @@ p {
     font-size: 25px;
     color: #464444;
 }
-
-
-
-
-
